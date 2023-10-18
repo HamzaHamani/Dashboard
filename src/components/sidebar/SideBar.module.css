@@ -60,3 +60,14 @@
   background-color: var(--accent);
   color: white;
 }
+
+.lis {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.lis span {
+  font-size: 1.3rem;
+  width: 2rem;
+  height: 2rem;
+}

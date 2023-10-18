@@ -36,7 +36,7 @@ function SideBarItem({ item }) {
   return (
     <>
       <NavLink to={item.path}>
-        <li>
+        <li className={styles.lis}>
           <span>{icon}</span> {item.name}
         </li>
       </NavLink>

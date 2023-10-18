@@ -11,12 +11,12 @@ const info = [
   {
     path: "manageTeam",
     icon: "icon",
-    name: "ManageTeam",
+    name: "Manage Team",
   },
   {
     path: "contactInfo",
     icon: "icon",
-    name: "ContactInfo",
+    name: "Contac tInfo",
   },
   {
     path: "calendar",
@@ -49,7 +49,7 @@ function SideBar() {
   return (
     <div className={styles.sideBar}>
       <div className={styles.top}>
-        <p>HaMz</p>
+        <p>BiBa</p>
       </div>
       <div className={styles.bottom}>
         <ul>
