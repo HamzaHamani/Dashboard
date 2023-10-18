@@ -5,7 +5,7 @@ import revenueData from "./data/revenueData.json";
 function BarBitch() {
   return (
     <div>
-      idk
+      i
       <Bar
         data={{
           labels: ["a", "b", "c"],
