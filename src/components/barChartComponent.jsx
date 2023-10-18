@@ -5,22 +5,22 @@ import revenueData from "./data/revenueData.json";
 function BarBitch() {
   return (
     <div>
-      i
       <Bar
         data={{
-          labels: ["a", "b", "c"],
+          labels: revenueData.map((data) => data.label),
           datasets: [
             {
               label: "Revenue",
               data: revenueData.map((data) => data.revenue),
-              backgroundColor: "#064FF0",
-              borderColor: "#064FF0",
+              backgroundColor: "#429e67",
+
+              borderColor: "#111",
             },
             {
               label: "Cost",
               data: revenueData.map((data) => data.cost),
-              backgroundColor: "#FF3030",
-              borderColor: "#FF3030",
+              backgroundColor: " #419b92",
+              borderColor: "#111",
             },
           ],
         }}
