@@ -1,19 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
+/* :root {
+  --text: #010b1e;
+  --background: #d2e1fe;
+  --primary: #033eaa;
+  --secondary: #afcafd;
+  --accent: #0450dc;
+} */
+
+:root {
+  --text: #070e06;
+  --background: #ffffff;
+  --primary: #429e67;
+  --secondary: #c2e5e2;
+  --accent: #419b92;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  /* font-weight: bold; */
 }
 /* 
-background #E7F3E2
-primary #66AE47
-secondary #D2E9C9
-accent #5FA343
-text ##040703
+background #E5F1FA
+primary ##979bed
+secondary #c8a8f0
+accent #5f1fad
+text #05101a
 
 --------
 background #EFFBF1
 primary #47CD9E
 secondary #C3E8EF
 accent #31A1B4
-text ##040703
+text #040703
 */
+
+.container {
+  display: flex;
+}
+.fill {
+  width: 100vw;
+  height: 100vh;
+}

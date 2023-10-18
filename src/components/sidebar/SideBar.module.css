@@ -1,0 +1,62 @@
+/* :root {
+  --text: #010b1e;
+  --background: #d2e1fe;
+  --primary: #033eaa;
+  --secondary: #afcafd;
+  --accent: #0450dc;
+} */
+
+:root {
+  --text: #070e06;
+  --background: #ffffff;
+  --primary: #429e67;
+  --secondary: #c2e5e2;
+  --accent: #419b92;
+}
+.sideBar {
+  padding: 2rem 2rem;
+  height: 100vh;
+  background-color: var(--secondary);
+  /* max-width: 30%; */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.068);
+}
+
+.top {
+  /* background-color: red; */
+  margin-bottom: 3rem;
+}
+.top p {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: -0.3rem;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* items */
+
+.bottom ul a {
+  text-decoration: none;
+  list-style-type: none;
+  color: var(--text);
+}
+.bottom ul a:visited {
+  color: var(--text);
+}
+.bottom ul {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.bottom li {
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  color: var(--text);
+  transition: 0.3s ease all;
+}
+.bottom li:hover {
+  background-color: var(--accent);
+  color: white;
+}

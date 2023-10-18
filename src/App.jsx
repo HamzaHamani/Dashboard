@@ -1,4 +1,4 @@
-import SideBar from "./components/SideBar";
+import SideBar from "./components/sidebar/SideBar";
 import Calendar from "./pages/Calendar";
 import ContactInfo from "./pages/ContactInfo";
 import Home from "./pages/Home";
@@ -12,20 +12,21 @@ import BarChart from "./pages/BarChart";
 
 function App() {
   return (
-    <>
+    <div className="container">
       <SideBar />
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="manageTeam" element={<ManageTeam />} />
-        <Route path="contactInfo" element={<ContactInfo />} />
-        <Route path="calendar" element={<Calendar />} />
-        <Route path="profileForm" element={<ProfileForm />} />
-        <Route path="faq" element={<Faq />} />
-        <Route path="geographyChart" element={<Geography />} />
-        <Route path="barChart" element={<BarChart />} />
-      </Routes>
-    </>
+      <div className="fill">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="manageTeam" element={<ManageTeam />} />
+          <Route path="contactInfo" element={<ContactInfo />} />
+          <Route path="calendar" element={<Calendar />} />
+          <Route path="profileForm" element={<ProfileForm />} />
+          <Route path="faq" element={<Faq />} />
+          <Route path="geographyChart" element={<Geography />} />
+          <Route path="barChart" element={<BarChart />} />
+        </Routes>
+      </div>
+    </div>
   );
 }
 
