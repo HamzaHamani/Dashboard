@@ -50,3 +50,8 @@ text #040703
   width: 100vw;
   height: 100vh;
 }
+
+.barChart {
+  /* background-color: rgba(255, 0, 0, 0.26); */
+  width: 70rem;
+}

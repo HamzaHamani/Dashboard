@@ -1,5 +1,14 @@
+import BarBitch from "../components/barChartComponent";
+
 function BarChart() {
-  return <div>bar</div>;
+  return (
+    <div className="barChart">
+      bar
+      <>
+        <BarBitch />
+      </>
+    </div>
+  );
 }
 
 export default BarChart;
