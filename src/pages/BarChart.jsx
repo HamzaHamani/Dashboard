@@ -1,5 +1,5 @@
 function BarChart() {
-  return <div>bar chart</div>;
+  return <div>bar</div>;
 }
 
 export default BarChart;

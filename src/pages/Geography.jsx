@@ -1,5 +1,5 @@
 function Geography() {
-  return <div>geo chart</div>;
+  return <div></div>;
 }
 
 export default Geography;
