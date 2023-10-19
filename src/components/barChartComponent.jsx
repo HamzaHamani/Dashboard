@@ -12,7 +12,7 @@ function BarBitch() {
             {
               label: "Revenue",
               data: revenueData.map((data) => data.revenue),
-              backgroundColor: "#429e67",
+              backgroundColor: "#457ce2",
 
               borderColor: "#111",
             },

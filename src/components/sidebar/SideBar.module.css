@@ -1,18 +1,20 @@
 /* :root {
-  --text: #010b1e;
-  --background: #d2e1fe;
-  --primary: #033eaa;
-  --secondary: #afcafd;
-  --accent: #0450dc;
-} */
-
-:root {
   --text: #070e06;
   --background: #ffffff;
   --primary: #429e67;
   --secondary: #c2e5e2;
   --accent: #419b92;
 }
+} */
+
+:root {
+  --text: #010b1e;
+  --background: #d2e1fe;
+  --primary: #033eaa;
+  --secondary: #afcafd;
+  --accent: #457ce2;
+}
+
 .sideBar {
   padding: 2rem 2rem;
   height: 100vh;
