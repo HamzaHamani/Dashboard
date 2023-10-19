@@ -11,17 +11,18 @@
 } */
 
 :root {
-  --text: #070e06;
-  --background: #ffffff;
-  --primary: #429e67;
-  --secondary: #c2e5e2;
-  --accent: #419b92;
+  --text: #010b1e;
+  --background: #d2e1fe;
+  --primary: #033eaa;
+  --secondary: #afcafd;
+  --accent: #457ce2;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-family: "Poppins", sans-serif;
   background-color: var(--background);
